@@ -16,19 +16,21 @@ npm i otp-generators
 ## Usage
 
 ```js
-var newOTP = require('otp-generators)
+var newOTP = require('otp-generators')
+            // or
+import newOTP from 'otp-generators';
 
 // For numeric OTP
-newOTP.generate(6, { alphabets: false, upperCase: false, specialChars: false });
+newOTP.generate(6, { alphabets: false, upperCase: false, specialChar: false });
 
 // For alphanumeric OTP
-newOTP.generate(6, { alphabets: true, upperCase: false, specialChars: false });
+newOTP.generate(6, { alphabets: true, upperCase: false, specialChar: false });
 
 // For alphanumeric with upperCase
-newOTP.generate(6, { alphabets: true, upperCase: true, specialChars: false });
+newOTP.generate(6, { alphabets: true, upperCase: true, specialChar: false });
 
 // For alphanumeric with special characters 
-newOTP.generate(6, { alphabets: true, upperCase: true, specialChars: true });
+newOTP.generate(6, { alphabets: true, upperCase: true, specialChar: true });
 
 ```
 ### generate(length, options)
