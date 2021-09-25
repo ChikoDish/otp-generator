@@ -18,7 +18,17 @@ npm i otp-generators
 ```js
 var newOTP = require('otp-generators)
 
+// For numeric OTP
 newOTP.generate(6, { alphabets: false, upperCase: false, specialChars: false });
+
+// For alphanumeric OTP
+newOTP.generate(6, { alphabets: true, upperCase: false, specialChars: false });
+
+// For alphanumeric with upperCase
+newOTP.generate(6, { alphabets: true, upperCase: true, specialChars: false });
+
+// For alphanumeric with special characters 
+newOTP.generate(6, { alphabets: true, upperCase: true, specialChars: true });
 
 ```
 ### generate(length, options)
