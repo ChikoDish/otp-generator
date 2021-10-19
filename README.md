@@ -3,6 +3,8 @@ Generate OTP with specific digits and seeds
 
 [![NPM](https://nodei.co/npm/otp-generators.png?downloadRank=true&downloads=true)](https://www.npmjs.com/package/otp-generators/)
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=ChikoDish)](https://github.com/ryo-ma/github-profile-trophy)
+
 ## Index
 * [Install](#install)
 * [Usage](#usage)
